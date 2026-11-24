@@ -53,10 +53,10 @@ tectonic paper.tex
 
 ## 从服务器实验记录复核
 
-服务器项目目录为 `/home/gyf/camera_radar_detection/`。原始实验为 `runs/rescue_42`、`runs/rescue_43` 和 `runs/rescue_44`。从包含本复现包代码的目录运行下面的命令，`--extract` 指向上述三个目录的父目录。
+原始实验为 `runs/rescue_42`、`runs/rescue_43` 和 `runs/rescue_44`。从包含本复现包代码的目录运行下面的命令，`--extract` 指向上述三个目录的父目录。
 
 ```bash
-python strong_blur_report.py --extract /home/gyf/camera_radar_detection/runs
+python strong_blur_report.py --extract /camera_radar_detection/runs
 ```
 
 如需重新训练，先按 [nuScenes 下载说明](https://www.nuscenes.org/nuscenes#download) 获取 `v1.0-mini`。在有 NVIDIA GPU 的服务器装好 Python、PyTorch、Torchvision、nuScenes devkit、Ultralytics、OpenCV 和 pycocotools，然后在项目根目录运行。下例复用相机模型权重，精修训练协议与原实验一致。
