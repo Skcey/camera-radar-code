@@ -1,0 +1,19 @@
+{
+  "author_repository": "https://github.com/mrnabati/RRPN",
+  "revision": "c9f4c291e53e64383158542ba79bf99d1cecebdc",
+  "reference_function": "utils/rrpn_generator.py:get_im_proposals",
+  "point_sample": {
+    "numpy_seed": 42,
+    "points": 100,
+    "uniform_minimum": [1, 1, 3],
+    "uniform_maximum": [1599, 899, 100],
+    "boxes_per_point": 36,
+    "absolute_coordinate_tolerance_px": 1e-10,
+    "all_coordinates_match": true,
+    "empty_projection_checked": true
+  },
+  "paper_templates": {
+    "mini": {"frames": 81, "box_count_mean": 561.925925925926},
+    "nuscenes_unseen": {"frames": 1191, "box_count_mean": 575.0831234256927}
+  }
+}

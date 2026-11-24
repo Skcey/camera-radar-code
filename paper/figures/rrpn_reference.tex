@@ -1,0 +1,27 @@
+\newcommand{\RrpnMiniRow}{%
+RRPN 候选＋同型精修 & 2.42 & 7.72 & 0.93 & 13.55 \\
+}
+\newcommand{\RrpnSeedRow}{%
+RRPN 候选精修 & 3.07 & 2.04 & 2.17 & $2.42\pm0.56$ \\
+}
+\newcommand{\RrpnExternalRow}{%
+RRPN 候选精修 & 2.79 & 7.86 & — & — \\
+}
+\newcommand{\StrongBlurComparisonRows}{%
+\multicolumn{4}{l}{nuScenes mini} \\
+RRPN 候选复测 & 1.38 / 3.84 & 2.42 / 7.72 & +1.04 / +3.88 \\
+本文方法 & 1.38 / 3.84 & 2.54 / 8.01 & +1.16 / +4.17 \\
+\midrule
+\multicolumn{4}{l}{nuScenes 未见场景} \\
+RRPN 候选复测 & 1.44 / 3.67 & 2.79 / 7.86 & +1.35 / +4.18 \\
+本文方法 & 1.44 / 3.67 & 2.53 / 7.35 & +1.09 / +3.68 \\
+}
+\newcommand{\RrpnMiniFinding}{%
+在 mini 上，本文模板和 RRPN 对照平均每帧分别生成 561.9 和 1685.4 个雷达候选。相对该对照，本文方法的 mAP50--95 高 0.12 个百分点，AP50 高 0.28 个百分点。两组均使用相同的最终输出上限。
+}
+\newcommand{\RrpnExternalFinding}{%
+在 30 个未见 nuScenes 场景中，相对 RRPN 候选对照，本文方法的 mAP50--95 低 0.27 个百分点，AP50 低 0.50 个百分点。两组均沿用 mini 的权重与分数系数。
+}
+\newcommand{\RrpnConclusion}{%
+相对 RRPN 候选对照，本文方法的 mAP50--95 在 mini 上高 0.12 个百分点，在未见 nuScenes 场景上低 0.27 个百分点。
+}

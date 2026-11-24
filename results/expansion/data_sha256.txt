@@ -1,0 +1,4 @@
+db48746b10e3544d5ef619eaa3d687e3960626fe1b4422ed856711da5aa7325b  data/expansion/downloads/v1.0-trainval_meta.tgz
+37f61460e6b1f1d9a02d3147a5557a5fa654e33752beb1d1cc711e0b0fb1b6e1  data/expansion/downloads/v1.0-trainval01_keyframes.tgz
+1dcc10c082220e78b9a694f7e9a69b0174f7b4bb5f58643e7f9737bdce8a0348  data/expansion/downloads/v1.0-trainval02_keyframes.tgz
+a8a82b9c88cc000a88065c07ac0251e255bfffca1412de73608eaff1d1de1fde  data/expansion/downloads/astyx.zip

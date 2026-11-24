@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.ultralytics/
+demo_output/
+runs/retrain/
+runs/recheck/
+data/nuscenes/
+data/astyx-source/
+data/expansion/
+data/prepared/*
+!data/prepared/summary.json
+weights/
+paper/authors.tex
+paper/paper.log
+paper/paper.pdf
+paper/figures/severe_examples.jpg

@@ -1,0 +1,22 @@
+Linux aarch64
+NVIDIA GB10, 580.82.09
+Python 3.10.18
+cachetools==7.3.3
+descartes==1.1.0
+fire==0.7.1
+matplotlib==3.10.9
+matplotlib-inline==0.2.2
+numpy==2.2.6
+nuscenes-devkit==1.2.0
+opencv-python==4.13.0.92
+polars==2.0.0
+polars-runtime-32==2.0.0
+pycocotools==2.0.11
+pyquaternion==0.9.9
+scikit-learn==1.7.2
+shapely==2.1.2
+torch==2.9.0+cu130
+torchaudio==2.9.0
+torchvision==0.24.0
+ultralytics==8.3.230
+ultralytics-thop==2.2.5

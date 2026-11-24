@@ -1,0 +1,11 @@
+# Install the matching torch and torchvision wheels first. See ENVIRONMENT.md.
+numpy==1.26.4
+opencv-python==4.10.0.84
+opencv-python-headless==4.10.0.84
+matplotlib==3.10.9
+nuscenes-devkit==1.2.0
+pycocotools==2.0.11
+pyquaternion==0.9.9
+ultralytics==8.3.230
+# nuscenes-devkit's tracking dependencies pull trackeval, whose newer releases require NumPy 2.
+trackeval==1.0.0

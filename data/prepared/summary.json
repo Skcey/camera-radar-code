@@ -1,0 +1,34 @@
+{
+  "version": "v1.0-mini",
+  "size": 640,
+  "labels": {
+    "train:pedestrian": 842,
+    "train:car": 1496,
+    "train:bicycle": 67,
+    "val:pedestrian": 299,
+    "val:car": 855,
+    "val:bicycle": 15
+  },
+  "train": {
+    "frames": 323,
+    "scenes": [
+      "scene-0061",
+      "scene-0553",
+      "scene-0655",
+      "scene-0757",
+      "scene-0796",
+      "scene-1077",
+      "scene-1094",
+      "scene-1100"
+    ],
+    "empty_radar_frames": 0
+  },
+  "val": {
+    "frames": 81,
+    "scenes": [
+      "scene-0103",
+      "scene-0916"
+    ],
+    "empty_radar_frames": 0
+  }
+}

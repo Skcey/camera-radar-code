@@ -1,0 +1,42 @@
+{
+  "dataset": "v1.0-trainval",
+  "scene_frames": {
+    "scene-0003": 40,
+    "scene-0012": 40,
+    "scene-0013": 40,
+    "scene-0014": 40,
+    "scene-0015": 40,
+    "scene-0016": 40,
+    "scene-0017": 40,
+    "scene-0018": 40,
+    "scene-0035": 40,
+    "scene-0036": 40,
+    "scene-0038": 40,
+    "scene-0039": 40,
+    "scene-0092": 40,
+    "scene-0093": 39,
+    "scene-0094": 40,
+    "scene-0095": 39,
+    "scene-0096": 39,
+    "scene-0097": 39,
+    "scene-0098": 39,
+    "scene-0099": 39,
+    "scene-0100": 40,
+    "scene-0101": 40,
+    "scene-0102": 40,
+    "scene-0104": 39,
+    "scene-0105": 39,
+    "scene-0106": 40,
+    "scene-0107": 40,
+    "scene-0108": 39,
+    "scene-0109": 40,
+    "scene-0110": 40
+  },
+  "complete_scenes": 30,
+  "total_frames": 1191,
+  "mini_scene_overlap": [],
+  "archive_parts": [
+    "v1.0-trainval01_keyframes",
+    "v1.0-trainval02_keyframes"
+  ]
+}
